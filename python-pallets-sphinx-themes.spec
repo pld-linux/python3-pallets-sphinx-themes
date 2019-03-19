@@ -6,13 +6,13 @@
 Summary:	Sphinx themes for Pallets Project documentation
 Summary(pl.UTF-8):	Motywy Sphinksa do dokumentacji z projektu Pallets
 Name:		python-pallets-sphinx-themes
-Version:	1.1.2
+Version:	1.1.4
 Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pallets-sphinx-themes/
-Source0:	https://github.com/pallets/pallets-sphinx-themes/archive/1.1.2.tar.gz
-# Source0-md5:	71e64b740fc1afd1b3034a342d789b3d
+Source0:	https://files.pythonhosted.org/packages/source/p/pallets-sphinx-themes/Pallets-Sphinx-Themes-%{version}.tar.gz
+# Source0-md5:	ed997c379de757b3575a3ac741131880
 URL:		https://palletsprojects.com/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
@@ -32,7 +32,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains Sphinx themes for Pallets related projects.
 
 %description -l pl.UTF-8
-Ten pakiet zawiera motywy Sphinksa dla projektów powiązanych z Pallets.
+Ten pakiet zawiera motywy Sphinksa dla projektów powiązanych z
+Pallets.
 
 %package -n python3-pallets-sphinx-themes
 Summary:	Sphinx themes for Pallets Project documentation
@@ -47,7 +48,7 @@ This package contains Sphinx themes for Pallets related projects.
 Ten pakiet zawiera motywy Sphinksa dla projektów powiązanych z Pallets.
 
 %prep
-%setup -q -n pallets-sphinx-themes-%{version}
+%setup -q -n Pallets-Sphinx-Themes-%{version}
 
 %build
 %if %{with python2}
