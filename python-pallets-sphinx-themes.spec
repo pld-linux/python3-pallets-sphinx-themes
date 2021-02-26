@@ -7,7 +7,7 @@ Summary:	Sphinx themes for Pallets Project documentation
 Summary(pl.UTF-8):	Motywy Sphinksa do dokumentacji z projektu Pallets
 Name:		python-pallets-sphinx-themes
 Version:	1.2.3
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pallets-sphinx-themes/
